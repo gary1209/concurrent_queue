@@ -6,4 +6,5 @@
 
 # Run the program
 
-`./main`
+`./main`  for lock-based quque
+`./main2` for lock-free quque
