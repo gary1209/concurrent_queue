@@ -34,7 +34,7 @@ int main() {
     // End timing the operations
     double end_time = omp_get_wtime();
 
-    printf("Total time for high contention scenario: %f seconds using lock-based queue\n", end_time - start_time);
+    printf("Total time for high contention scenario: %f seconds using lock-omp queue\n", end_time - start_time);
 
     destroy_lock_based_queue(&queue);
     return 0;
