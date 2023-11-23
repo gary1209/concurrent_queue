@@ -1,6 +1,10 @@
 # Concurrent Queue
 
-# Complie the program
+# Complie the program (On CIMS)
+
+`module load gcc-11.2`
+
+# Update makefile line 1 to your g++ cmd
 
 `make`
 
