@@ -2,6 +2,8 @@
 
 # Complie the program (On CIMS)
 
+`module avail gcc`
+
 `module load gcc-11.2`
 
 # Update makefile line 1 to your g++ cmd
