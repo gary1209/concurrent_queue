@@ -10,8 +10,16 @@
 
 `make`
 
+## After the make command, you will compile 6 sample programs and 6 benchmark programs.
+
 # Run the program
 
-`./main`  for lock-based quque
+`./bench1`  to run benchmark for lock-based quque (pthread mutex)
 
-`./main2` for lock-free quque
+`./bench3`  to run benchmark for lock-based quque (OpenMP lock)
+
+`./bench4`  to run benchmark for lock-free basic quque
+
+`./bench5`  to run benchmark for lock-free optimized1 quque
+
+`./bench6`  to run benchmark for lock-free optimized2 quque
